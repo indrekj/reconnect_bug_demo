@@ -1,0 +1,8 @@
+<section class="phx-hero">
+  <h1>Reconnect bug demo</h1>
+  <p>Open up console</p>
+
+  <p>Execute <pre>socket.disconnect(() => socket.connect())</pre> to reproduce the bug</p>
+
+  <p>To test fix change phoenix dependency to the path with fix in `assets/package.json`, run `npm i` in the assets dir and restart phx.server.</p>
+</section>
